@@ -1,4 +1,5 @@
 language: dlang
+handler_folder: function
 welcome_message: |
   You have created a new function which uses the D Programming Language and the new
   OpenFaaS Watchdog template.
