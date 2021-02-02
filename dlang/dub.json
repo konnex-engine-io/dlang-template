@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Konnex Engine Foundation <info@konnex-engine.io>"
+	],
+	"copyright": "Copyright © 2021, Konnex Engine Foundation",
+	"description": "Hello World in the D Programming Language as an OpenFaaS function",
+	"license": "proprietary",
+	"name": "hello-d",
+	"targetType": "executable",
+	"configurations": [
+	]
+}
