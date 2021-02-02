@@ -1,5 +1,5 @@
 # The Konnex Engine Framework
----
+
 ### OpenFaaS Language Template for the D Programming Language (DLang)
 
 ###### NOTE: This is a full language template with project generator. It includes a working build, push and deploy template for dlang functions initally based on the official Dockerfile language template.
@@ -9,8 +9,6 @@ This template contains a basic Hello World function that builds to a statically 
 The resulting binary is containerized in a Docker FROM scratch image for deployment to OpenFaaS.
 
 Works with the `faas-cli` command line tool as you would expect.
-
----
 
 ## Usage
 
@@ -50,7 +48,7 @@ myfunc
 
 Modify the source folder as required to create your functionality.
 
-##### NOTE: It is recommended to create your functionality in a separate file and import it into the handler as per the hello.d example. This will allow you to deploy your functions without further modification to the function-scoped Dockerfile or the global-scoped stack.yml file. *This way, you may name your files and folders as you choose, they need not be called `function` or any specific name to match the above example.* 
+##### NOTE: It is recommended to create your functionality in a separate file and import it into the handler as per the hello.d example. This will allow you to deploy your functions without further modification to the function-scoped Dockerfile or the global-scoped stack.yml file.<br><br>*This way, you may name your files and folders as you choose, they need not be called* `function` *or any other specific name to match the above example.* 
 
 Then either:
 
@@ -68,3 +66,4 @@ Then either:
 As per the `Dockerfile`, This will pull the `of-watchdog` binary from the official OpenFaas image, create a build container to build your statically linked executable, build the deployment container FROM scratch for you executable, and deploy your function to OpenFaaS.
 
 ---
+
