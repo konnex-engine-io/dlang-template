@@ -16,7 +16,7 @@ RUN \
 COPY . /tmp/
 
 RUN DFLAGS='-static' dub -v build
-RUN chmod +x ./hello-d
+RUN chmod +x ./handler
 
 FROM scratch
 
@@ -26,13 +26,13 @@ WORKDIR /
 # COPY --from=build /tmp/public/css /app/css
 # COPY --from=build /tmp/public/img /app/img
 # COPY --from=build /tmp/public/js /app/js
-COPY --from=builder /tmp/hello-d /bin/hello-d
+COPY --from=builder /tmp/handler /bin/handler
 COPY --from=builder /fwatchdog  /fwatchdog
 COPY --from=builder /tmp/.lock  /tmp/.lock
 
 ENV PATH "$PATH:/bin:/"
 
-ENV fprocess="/bin/hello-d"
+ENV fprocess="/bin/handler"
 
 # Uncomment to write debug messages to STDOUT
 # ENV write_debug=true
