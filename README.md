@@ -6,13 +6,13 @@
 
 This template contains a basic Hello World function that builds to a statically linked binary executable from inside an Alpine 3.13 Docker container.
 
-The resulting binary is containerized in a Docker FROM scratch image for deployment to OpenFaaS.
+The resulting binary is containerized using a Docker FROM scratch image for deployment to OpenFaaS.
 
 Works with the `faas-cli` command line tool as you would expect.
 
 ## Usage
 
-### Existing OpenFaaS Deployment
+### New or Existing OpenFaaS Deployment
 Add or modify the templates configuration section in your `/stack.yml` file to include the Konnex Engine DLang language template.
 
 For example:
