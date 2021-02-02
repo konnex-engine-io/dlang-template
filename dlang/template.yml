@@ -1,0 +1,6 @@
+language: dlang
+welcome_message: |
+  You have created a new function which uses the D Programming Language and the new
+  OpenFaaS Watchdog template.
+
+  This function uses STDIO in streaming mode.
