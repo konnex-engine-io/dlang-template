@@ -67,3 +67,4 @@ As per the `Dockerfile`, This will pull the `of-watchdog` binary from the offici
 
 ---
 
+&copy;2021 Konnex Engine Foundation
