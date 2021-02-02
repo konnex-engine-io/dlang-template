@@ -48,7 +48,7 @@ myfunc
 
 Modify the source folder as required to create your functionality.
 
-##### NOTE: It is recommended to create your functionality in a separate file and import it into the handler as per the hello.d example. This will allow you to deploy your functions without further modification to the function-scoped Dockerfile or the global-scoped stack.yml file.<br><br>*This way, you may name your files and folders as you choose, they need not be called* `function` *or any other specific name to match the above example.* 
+##### NOTE: It is recommended to create your functionality in a separate file and import it into the handler as per the hello.d example. This will allow you to deploy your functions without further modification to either the function-scoped Dockerfile or the global-scoped stack.yml file.<br><br>*This way, you may name your files and folders as you choose, they need not be called* `function` *or any other specific name to match the above example.* 
 
 Then either:
 
