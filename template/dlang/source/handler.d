@@ -1,5 +1,4 @@
-import hello;
-
+import fn: sayHello;
 int main(string[] args)
 {
     string input;
