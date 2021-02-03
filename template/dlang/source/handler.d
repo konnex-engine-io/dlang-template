@@ -1,4 +1,4 @@
-import function.hello: sayHello;
+import hello;
 
 int main(string[] args)
 {
