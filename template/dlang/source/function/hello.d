@@ -1,8 +1,8 @@
-import std.stdio : readf, writefln;
+import std.stdio: readf, writefln;
 
-string sayHello(string input) 
+void sayHello(string input) 
 {
-    name = "World";
+    string name = "World";
     readf!" %s"(input);
 
     if (input != "") {
